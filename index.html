@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>An’s Personal Website</title>
+</head>
+<!-- Introduction Section -->
+<section id="intro">
+    <h1>Pham Nguyen Vinh An</h1>
+    <img src="An's pic.jpg" alt="Photo of An" width="200">
+    <p>Hello! I’m An, a Vietnamese student passionate about history, research psychology, and creative storytelling. Welcome to my personal site!</p>
+</section>
+<!-- About Section -->
+<section id="about">
+    <h2>About Me</h2>
+    <p>I’m currently a student at Fulbright University Vietnam, majoring in Psychology with a minor in History and a concentration in Research, Therapy, and Counseling.</p>
+
+    <h3>Education</h3>
+    <ul>
+        <li><strong>Fulbright University Vietnam</strong> — B.A. in Psychology (Expected 2027)</li>
+    </ul>
+    	
+        <li><strong>American International School Vietnam</strong> — 2023</li>
+    </ul>
+
+    <h3>Skills</h3>
+    <ul>
+        <li>Historical and psychological research</li>
+        <li>Creative writing & storytelling</li>
+        <li>Team collaboration</li>
+        <li>Event organization</li>
+    </ul>
+
+    <h3>Hobbies</h3>
+    <ul>
+        <li>Running (member of Fulbright Running Club 🏃‍♀️)</li>
+        <li>Reading</li>
+        <li>Writing random pieces</li>
+        <li>Watching animated films (preferably Soviet animated films)</li>
+        <li>Playing romance visual novel games</li>
+    </ul>
+
+<section id="portfolio">
+    <!-- Portfolio Section -->
+<section id="portfolio">
+    <h2>Portfolio</h2>
+    <p>Here are some highlights from my professional and extracurricular experience:</p>
+
+    <!-- PROFESSIONAL EXPERIENCE -->
+    <h3>Professional Experience</h3>
+    <p><strong>Saigoneer</strong>, Editorial Intern (EN) | HCM City, Vietnam <br>
+    <em>July 2025 – October 2025</em></p>
+    <ul>
+        <li>Researched and produced written content for internet publication.</li>
+        <li>Interviewed artists and turned their words into heartwarming and inspiring articles, accessible for viewers in and outside of Vietnam.</li>
+    </ul>
+
+    <!-- EXTRACURRICULAR ACTIVITIES -->
+    <h3>Extracurricular Activities</h3>
+
+    <p><strong>IEG Foundation</strong>, Collaborator | HCM City, Vietnam <br>
+    <em>January 2025 – January 2025</em></p>
+    <ul>
+        <li>Produced written content on well-being for the 3rd issue of IEG Foundation’s magazine.</li>
+        <li>Effectively turned one’s past experience into a coherent and engaging magazine article.</li>
+    </ul>
+
+    <p><strong>U.S.-Vietnam Youth Leadership Dialogues</strong>, Cohort Member | HCM City, Vietnam <br>
+    <em>May 2024 – Present</em></p>
+    <ul>
+        <li>Conducted research on films about the Second Indochina War, analyzing perspectives to promote cross-cultural understanding.</li>
+        <li>Co-organized virtual film screenings for 100+ participants, fostering dialogue between Vietnamese and American audiences.</li>
+        <li>Collaborated with youth leaders to create discussion prompts and reflection activities for deeper audience engagement.</li>
+    </ul>
+
+    <p><strong>TEDxYouth@AISVN</strong>, Speaker | HCM City, Vietnam <br>
+    <em>February 2023 – April 2023</em></p>
+    <ul>
+        <li>Researched, developed, and delivered a speech on the societal importance of psychology to an international audience of 100+.</li>
+        <li>Utilized storytelling to link psychological research with educational contexts for diverse audiences.</li>
+    </ul>
+
+    <p><strong>AISVN Psychology & Wellness Club</strong>, Member | HCM City, Vietnam <br>
+    <em>January 2023 – May 2023</em></p>
+    <ul>
+        <li>Co-organized Wellness Week, engaging 500 students and teachers across school grades in mental health activities.</li>
+        <li>Curated and facilitated two film screenings on mental health topics for 70 participants.</li>
+        <li>Developed informational materials to enhance awareness and understanding of featured topics.</li>
+    </ul>
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:kyliepham2005@gmail.com">kyliepham2005@gmail.com</a></p>
+    <p>Phone: +84 899 150 405</p>
+
+    <form action="#" method="post">
+        <label for="name">Your Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Your Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+        <input type="submit" value="Send Message">
+    <!-- Put inside <head> -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!-- Example fonts: 'Inter' for body, 'Playfair Display' for headings -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+  /* ===== Global / theme ===== */
+  :root{
+    --bg: #0f1724;           /* page background */
+    --card-bg: #0b1220;      /* section cards */
+    --text: #e6eef8;         /* primary text */
+    --muted: #9fb0c8;        /* secondary text */
+    --accent: #f4a261;       /* accent color (links, buttons) */
+    --max-width: 1000px;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    background-color: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    padding: 36px;
+    display: flex;
+    justify-content: center; /* centers .container horizontally */
+  }
+
+  .container {
+    width: 100%;
+    max-width: var(--max-width);
+    padding: 28px;
+    background: linear-gradient(180deg, rgba(255,255,255,0.02), transparent);
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.6);
+  }
+
+  /* ===== Header / intro ===== */
+  header {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 28px;
+  }
+
+  .profile-photo {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid rgba(255,255,255,0.06);
+  }
+
+  h1 {
+    font-family: "Playfair Display", Georgia, serif; /* heading font */
+    margin: 0 0 6px 0;
+    font-size: 2.0rem;     /* control heading size */
+    color: var(--text);
+  }
+
+  .subtitle {
+    color: var(--muted);
+    margin: 0;
+    font-size: 0.95rem;
+  }
+
+  /* ===== Navigation (if you have one) ===== */
+  nav {
+    margin-top: 12px;
+  }
+  nav a {
+    color: var(--muted);
+    text-decoration: none;
+    margin-right: 14px;
+    font-weight: 500;
+  }
+  nav a:hover { color: var(--accent); }
+
+  /* ===== Portfolio / sections ===== */
+  section {
+    background: var(--card-bg);
+    padding: 18px;
+    border-radius: 10px;
+    margin-bottom: 18px;
+  }
+
+  section h2 {
+    margin-top: 0;
+    font-family: "Playfair Display", serif;
+    color: var(--text);
+  }
+
+  /* make the portfolio items a 2-column layout on wider screens */
+  .portfolio-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  @media (min-width: 800px) {
+    .portfolio-grid { grid-template-columns: 1fr 1fr; }
+  }
+
+  .job {
+    background: rgba(255,255,255,0.02);
+    padding: 12px;
+    border-radius: 8px;
+  }
+
+  .job h4 {
+    margin: 0 0 6px 0;
+    font-size: 1.05rem;
+  }
+  .job .meta {
+    font-size: 0.85rem;
+    color: var(--muted);
+    margin-bottom: 6px;
+  }
+  .job ul { margin: 6px 0 0 16px; color: var(--text); }
+
+  /* ===== links / buttons ===== */
+  a.primary {
+    background: var(--accent);
+    color: white;
+    padding: 8px 12px;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+  }
+
+  a.primary:hover { opacity: 0.9; transform: translateY(-1px); }
+
+  /* ===== utilities ===== */
+  .muted { color: var(--muted); }
+  .center { text-align: center; }
+</style>
+
+</html>
